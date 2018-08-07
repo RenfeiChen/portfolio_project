@@ -80,8 +80,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'portfoliodb',
-        'USER': 'postgres',
-        'PASSWORD': '{YOUR OWN PASSWORD}', # replace it with your own password
+        'USER': 'postgres',# If you want to change the USER, feel free to swtich it to the user you created
+        'PASSWORD': 'Crf@964150',# replace it with your own password
         'HOST': 'localhost',
         'PORT': '5432',
     }
